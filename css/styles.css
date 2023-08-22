@@ -54,12 +54,14 @@ body
     margin: 0 auto;  
     padding:0 15px;
 }
+
 .header{
 
     border: 1px solid var(--cornflower);
     background: var(--whitecolor);
 
 }
+
 .header-container
 {
     display: flex;
@@ -207,7 +209,7 @@ body
 { /*button css*/
 
     display: inline-flex;
-    padding: 16px 32px;
+    padding: 12px 24px;
 
     cursor: pointer;
     border: 1px solid var(--cornflower);
@@ -338,7 +340,6 @@ body
 
 .team-container {
 
-
 }
 
 .team 
@@ -392,11 +393,9 @@ body
 .team-social-svg {
     fill: currentColor;
 }
-
 /*-----END OF TEAM SOCIAL MEDIA ICONS-----*/
 
 /* Customers section */
-
 .customers-title {
     color: var(--navyblue-color);
     display: flex;
@@ -535,6 +534,7 @@ body
 .footer-socials-text {
     color: var(--whitecolor);
     display: flex;
+    font-weight:500;
 }
 
 .footer-socials-item {
@@ -550,7 +550,7 @@ body
     align-items: center;
     justify-content: center;
     background-color: var(--iriscolor);
-    margin-top: 8px;
+
 }
 
 .footer-socials-link:hover,
