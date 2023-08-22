@@ -143,6 +143,11 @@ body
     list-style-type: none;
 }
 
+.link {
+    text-decoration: none;
+    color: var(--navyblue-color);
+}
+
 .navbar .navlist-top-pages:hover,
 .navbar .navlist-top-pages:focus,
 .navbar .navlist-top-pages.currentoption
